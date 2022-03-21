@@ -101,10 +101,43 @@ http://g.recordit.co/DhoOJbMH7q.gif
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
-[Add table of models]
+[
+
+|Property  | Type | Description |
+|ObjectId  |String|Uniquie Id for user to create account
+|Image     |File  | Image uploaded by website|
+|Caption   |String| Caption posted by website|
+|LikesCount|Number|Number of likes on a post|
+|CreatedAt |DateTime|Time when the post was created|
+|UpdatedAt |UpdatedTime
+
+]
+
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+List of network requests by screen
+    Login Screen
+        (Read/GET) Query where all pet posts are grabbed
+        `let query = PFQuery(className:"Uploads")
+         query.whereKey("website", equalTo: currentUser)
+         query.order(byDescending: "createdAt")
+         query.findObjectsInBackground { (posts: [PFObject]?, error: Error?) in
+         if let error = error { 
+           print(error.localizedDescription)
+         } else if let posts = uploads {
+              print("Successfully retrieved \(uploads.count) uploads.")
+   }
+}`
+        (Create/POST) Adds pet to favorites
+        (Delete) Remove a pet from favorites 
+        
+   *** BONUS *** Post a Pet
+       (Create/POST) Post a Pet for rehome
+   
+   Pet Details Page
+       (Read/GET) Query where pet information is displayed
+   
+   
