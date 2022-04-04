@@ -1,6 +1,8 @@
 # Codepath-Final-Project
 An animal shelter app
 http://g.recordit.co/DhoOJbMH7q.gif
+
+http://g.recordit.co/V7BHcR2wny.gif UPDATED PROGRESS GIF
 J&S Animal Services Codepath Project - README Template
 ===
 [](https://animaladoptionsite)
@@ -29,6 +31,10 @@ It is an app that will list animals available for adoption within the animal she
 ## Product Spec
 
 ### 1. User Stories (Required and Optional)
+Completed User stories/ awaiting TA help
+X created signup/login screen
+X created launch screen
+X TableCell screen
 
 **Required Must-have Stories**
 
