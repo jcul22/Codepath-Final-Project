@@ -1,22 +1,22 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'J&SAnimalServices' do
+target 'JSAnimalServices' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for J&SAnimalServices
+  # Pods for JSAnimalServices
 
-  pod "Parse"
-  pod "AlamofireImage"
- 
+    pod 'Parse'
+    pod 'AlamofireImage'
 
-  target 'J&SAnimalServicesTests' do
+
+  target 'JSAnimalServicesTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
-  target 'J&SAnimalServicesUITests' do
+  target 'JSAnimalServicesUITests' do
     # Pods for testing
   end
 
