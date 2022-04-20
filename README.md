@@ -38,10 +38,9 @@ X TableCell screen
 
 **Required Must-have Stories**
 
-* Signup/Login to create account 
-* Stay signed in between use of app
-* Show Available pets in shelter 
-* Pick a pet to see more information about the pet
+X Signup/Login to create account 
+X Stay signed in between use of app
+X Show Available pets in shelter 
 * Apply for pet screen 
 * Display pet was successfully applied for
 
